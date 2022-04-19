@@ -6,6 +6,10 @@ body {
 	text-decoration: none;
 }
 
+*{
+	box-sizing: border-box;
+}
+
 /* header */
 #header-nav{
 	background-color: #ACBAAD;
@@ -17,10 +21,12 @@ body {
 
 .navbar-brand {
 	padding-top: 0;
+	text-align: left;
 }
 
 .navbar-brand h1{
 	color: #341948;
+	text-align: left;
 	}
 .navbar-brand a:hover, .navbar-brand a:focus {
 text-decoration: none;	
