@@ -1,0 +1,99 @@
+body {
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 16px;
+	color: white;
+	background-color: #988686;
+	text-decoration: none;
+}
+
+/* header */
+#header-nav{
+	background-color: #ACBAAD;
+	
+	border: 3px solid #D1D0D0;
+	border-radius: 0;
+}
+
+
+.navbar-brand {
+	padding-top: 0;
+}
+
+.navbar-brand h1{
+	color: #341948;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+text-decoration: none;	
+}
+
+.navbar-header {
+	margin-top: -12px;
+}
+
+
+#category-title {
+	margin-top: 7px;
+	color: #EAEAEA;
+}
+
+#menu-content{
+	background-color: #C7A19B;
+	margin: 10px;
+
+}
+
+.menu-item-title{
+	font-family: 'Ubuntu Codensed', monospace;
+	color: #323E42;
+	padding-top: 15px;
+	font-size: 1.3em;
+	font-weight: bold;
+
+}
+
+
+.menu-item-details{
+	color: #5C4E4E;
+}
+
+.top-page{
+	text-decoration: none;
+	color: white;
+	font-size: .8em;
+}
+
+.top-page:hover {
+	text-decoration: none;
+	color: black;
+}
+
+/* Medium Devices */
+@media (min-width:  992px) and (max-width:  1199px){
+
+}
+
+/* Small Devices */
+@media (min-width: 768px){
+	#menu-content {
+		padding-right: 5px;
+		padding-left: 5px;
+		margin-top: 10px;
+		margin-bottom: 15px;
+	}
+	
+}
+
+/* Extra Small Devices */
+@media (max-width: 767px){
+	#menu-content{
+		margin-top: 10px;
+		margin-bottom: 15px;
+		padding-right: 5px;
+		padding-left: 5px;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+
+}
+
+
