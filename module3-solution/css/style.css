@@ -21,7 +21,7 @@ body {
 
 .navbar-brand h1{
 	color: #341948;
-}
+	}
 .navbar-brand a:hover, .navbar-brand a:focus {
 text-decoration: none;	
 }
